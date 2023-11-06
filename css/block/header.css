@@ -1,0 +1,26 @@
+.header__logo img {
+    width: 79px;
+    height: 79px;
+}
+
+.header__container {
+    display: flex;
+    width: 100%;
+}
+
+.header__right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__right ul {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.header {
+    background: #F2CEDA;
+}

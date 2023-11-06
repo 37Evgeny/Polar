@@ -1,0 +1,7 @@
+@import url("./setup/base.css");
+@import url("./setup/page.css");
+@import url("./block/header.css");
+@import url("./block/info.css");
+@import url("./block/services.css");
+@import url("./block/detail__card.css");
+@import url("./block/product.css");

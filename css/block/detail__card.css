@@ -1,0 +1,40 @@
+.detail__info__card__left h2 {
+    color: #150101;
+    font-family: Hind Madurai;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110.5%;
+    /* 48.841px */
+    width: 349px;
+    height: 98.27px;
+    flex-shrink: 0;
+}
+
+.detail__info__card__left p {
+    margin-top: 16px;
+    width: 442px;
+    height: 58.16px;
+    flex-shrink: 0;
+    color: #150101;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.detail__info__card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail__info__card__left button {
+    margin-top: 35px;
+}
+
+.detail__info__card {
+    background: #F8EDF0;
+}

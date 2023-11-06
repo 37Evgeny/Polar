@@ -1,0 +1,44 @@
+.services__cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+height: 200px;
+border-radius: 7px;
+background: #FFF;
+box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+
+.services__card img {
+    width: 51.002px;
+height: 43.35px;
+}
+
+.services__card__title {
+    margin-top: 25px;
+    color: #000;
+font-family: Hind Madurai;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.services__card__text {
+    margin-top: 9px;
+    color: #000;
+text-align: center;
+font-family: Hind Madurai;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
