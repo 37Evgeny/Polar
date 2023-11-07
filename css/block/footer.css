@@ -1,0 +1,145 @@
+.footer {
+    background: #0A0808;
+    height: 381px;
+}
+
+.footer__logo__img img {
+    width: 79px;
+    height: 79px;
+}
+
+.footer__logo p {
+    width: 207px;
+    height: 47px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.687%;
+    /* 16.762px */
+    letter-spacing: 0.12px;
+}
+
+.footer__logo span {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__soc {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__soc img {
+    width: 15px;
+    height: 15px;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__navigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__navigation li {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__info li {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__question {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__question__pay {
+    display: flex;
+    gap: 15px;
+}
+
+.footer__question__text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__question__input input {
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    opacity: 0.5;
+    width: 388px;
+    height: 55px;
+    flex-shrink: 0;
+    background: #0A0808;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__question__input button {
+    width: 125px;
+    height: 55px;
+    border-radius: 5px;
+    background: #D23166;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__question__input {
+    margin-top: 13px;
+}
+
+.footer__question__pay {
+    margin-top: 15px;
+}
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__logo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
