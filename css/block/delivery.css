@@ -1,0 +1,76 @@
+.delivery__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery__right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.delivery__right h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.delivery__right p {
+    margin-top: 20px;
+    width: 607px;
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.delivery__right ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.delivery__right li {
+    gap: 10px;
+    display: flex;
+    color: #000;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.delivery__right__app__cnt {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.delivery {
+    background: #F8EDF0;
+    height: 639px;
+}
+
+.delivery__left {
+    margin-top: 70px;
+}
+
+.delivery__left{
+    width: 630px;
+}
+
+.delivery__left img{
+    position: absolute;
+}
+
+
+
+
