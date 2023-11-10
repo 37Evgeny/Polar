@@ -6,44 +6,49 @@
 .question__container {
     display: flex;
     flex-direction: column;
-   align-items: center;
-   justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .question__container h5 {
     width: 500px;
     color: #000;
-text-align: center;
-font-family: Roboto;
-font-size: 44px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.question__input__container input{
+.question__input__container input {
     width: 637px;
-height: 74px;
-border-radius: 5px;
-background: #FAFAFA;
-border: none;
+    height: 74px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    border: none;
 }
 
 .question__input__container button {
+    box-sizing: border-box;
     width: 134px;
-height: 74px;
-border-radius: 5px;
-background: #D64374;
-color: #FFF;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    height: 74px;
+    border-radius: 5px;
+    background: #D64374;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .question__input__container {
     margin-top: 28px;
 }
 
-
+@media(max-width:816px){
+    .question__input__container input{
+      max-width: 300px;
+    }
+}

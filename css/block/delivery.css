@@ -20,7 +20,7 @@
 
 .delivery__right p {
     margin-top: 20px;
-    width: 607px;
+    max-width: 607px;
     color: #0F0101;
     font-family: Roboto;
     font-size: 18px;
@@ -56,7 +56,7 @@
 
 .delivery {
     background: #F8EDF0;
-    height: 639px;
+    min-height: 639px;
 }
 
 .delivery__left {
@@ -64,13 +64,17 @@
 }
 
 .delivery__left{
-    width: 630px;
+    width: 50%;
 }
 
 .delivery__left img{
     position: absolute;
 }
 
-
+@media(max-width:816px){
+    .delivery__left{
+        display: none;
+    }
+}
 
 

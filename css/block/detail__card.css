@@ -38,3 +38,11 @@
 .detail__info__card {
     background: #F8EDF0;
 }
+
+.detail__info__card__left {
+    display: flex;
+    flex-direction: column;
+}
+.detail__info__card__right img {
+    width: 100%;
+}

@@ -89,3 +89,12 @@ flex-shrink: 0;
     flex-direction: column;
     justify-content: center;
 }
+
+@media(max-width:1169px){
+    .info__container {
+        flex-wrap: wrap;
+    }
+    .info__container__right {
+        display: none;
+    }
+}
