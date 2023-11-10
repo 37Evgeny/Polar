@@ -217,6 +217,17 @@ border: 1px solid #D64374;
 
 @media(max-width:870px){
     .product__navigation__list ul{
+        display: flex;
         flex-direction: column;
+        align-items: center;
     }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .product__price__list {
+        gap: 30px;
+    }
+
 }
