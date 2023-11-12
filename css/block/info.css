@@ -14,7 +14,6 @@
 
 .info__container__left h1 {
     width: 665px;
-    height: 130px;
     color: #0F0101;
     font-family: Fredoka One;
     font-size: 57.33px;
@@ -59,7 +58,7 @@
 .info__container__right {
     position: relative;
     display: flex;
-   align-items: center;
+    align-items: center;
 }
 
 .info__container__right img {
